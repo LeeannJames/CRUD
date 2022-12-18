@@ -40,7 +40,7 @@ CREATE TABLE `login` (
 
 INSERT INTO `login` (`uid`, `uname`, `pass`, `utype`) VALUES
 (1, 'admin', 'admin', 'admin'),
-(2, 'pipzmerkz', '1234', 'student');
+(2, 'leeannjames', '1234', 'student');
 
 -- --------------------------------------------------------
 
@@ -61,11 +61,11 @@ CREATE TABLE `student` (
 --
 
 INSERT INTO `student` (`id`, `name`, `age`, `email`, `gpa`) VALUES
-(2, 'Joshua Libed', 22, 'libed.joshua@clsu2.edu.ph', 1.62),
-(3, 'Cameron Cajucom', 22, 'cajucom.cameron@clsu2.edu.ph', 1.51),
-(4, 'Ysabella Ann Mateo', 22, 'mateo.ysabella@clsu2.edu.ph', 1.52),
-(5, 'Angel Venus Guerrero', 21, 'guerrero.angel@clsu2.edu.ph', 1.45),
-(8, 'Philippe Ernest Mercado', 26, 'mercado.philippe@clsu2.edu.ph', 1.8);
+(2, 'Jaypril Lazaga', 21, 'lazaga.jaypril@clsu2.edu.ph', 1.72),
+(3, 'John Rey Divina', 21, 'divina.johnrey@clsu2.edu.ph', 1.61),
+(4, 'John Joseph Manuel', 21, 'manuel.john@clsu2.edu.ph', 1.92),
+(5, 'Edward Joshua Fidelis', 21, 'fidelis.edward@clsu2.edu.ph', 1.55),
+(8, 'Leeann James Ligon', 21, 'ligon.leeann@clsu2.edu.ph', 1.82);
 
 --
 -- Indexes for dumped tables
